@@ -1,33 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: aquamarine; */
+    /* font-family: 'Varela Round', sans-serif; */
 }
 
-/* nav{
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navbar{
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navbar a{
-    float: right;
-    display: block;
-    color: whitesmoke;
-    padding: 18px 14px;
-    text-decoration: none;
-    font-size: 14px;
-}  */
 
 .menu {
     position: fixed;
@@ -88,6 +64,7 @@
     height: 100vh;
     width: 100%;
     margin-bottom: 10px;
+
 }
 
 .img{
@@ -117,6 +94,9 @@
     font-size: small;
 } 
 
+.developer{
+    background-color: whitesmoke;
+}
 
 .skills{
     display: flex;
@@ -153,11 +133,16 @@
 
 .resume{
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .resumeItem {
-    border-left: 2px solid black;
+    border-left: 2px solid gold;
     padding: 0 0 15px 15px;
+}
+
+.projects{
+    height: 100vh;
+    padding-top: 20px;
 }
 
