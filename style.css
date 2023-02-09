@@ -4,6 +4,13 @@
     /* font-family: 'Varela Round', sans-serif; */
 }
 
+.title h2{
+    color: gold;
+}
+
+.res{
+    color: gold;
+}
 
 .menu {
     position: fixed;
@@ -12,7 +19,7 @@
     /* animation effect */
     transition: transform 0.8s;
     top: 0;
-    left: 0;
+    /* left: 0; */
     right: 0;
     bottom: 0;
     z-index: 99;
@@ -20,6 +27,7 @@
     color: white;
     list-style: none;
     padding-top: 4rem;
+    padding-right: 1rem;
 }
 
 .menuItem {
@@ -132,17 +140,35 @@
 } 
 
 .resume{
-    height: 100vh;
+    height: 150vh;
     padding-top: 20px;
 }
 
+@media screen and (min-width: 400px){
+    .resume{
+        height: 100vh;
+        padding-top: 20px;
+    }
+}
+
 .resumeItem {
-    border-left: 2px solid gold;
+    border-left: 2px solid navy;
     padding: 0 0 15px 15px;
 }
 
 .projects{
-    height: 100vh;
+    height: 80vh;
     padding-top: 20px;
+    /* background-color: whitesmoke; */
+}
+
+.tech{
+    list-style-type: none;
+
+}
+.tech li{
+    display: inline;
+    padding-left: 10px;
+    font-size: small;
 }
 
