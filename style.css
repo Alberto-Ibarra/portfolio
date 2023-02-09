@@ -34,7 +34,7 @@
     /* used to hide menu above the screen */
     transform: translateY(-100%);
     /* animation effect */
-    transition: transform 0.6s;
+    transition: transform 0.8s;
     top: 0;
     left: 0;
     right: 0;
@@ -119,29 +119,69 @@
 } 
 
 .aboutMe{
-    height: 100vh;
+    height: 35vh;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .aboutImg{
-    height: 60vh;
+    margin-top: 10px;
+    height: 30vh;
     width: 35%;
     margin: auto;
 }
+.me{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
 
 .content{
-    height: 80vh;
+    height: 30vh;
     width: 55%;
     margin: auto;
 }
 
 .topContent{
-    height: 30vh;
+    padding: 10px;
+    height: 18vh;
 }
 .bottomContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3px;
     height: 20vh;
+
+}
+
+.topIcons, .bottomIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bounce p {
+    font-size: xx-small;
+}
+
+.bounce {
+    display: inline-block;
+    position: relative;
+    animation: bounce 0.5s 5 linear;
+}
+
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.4em; }
+    100% { top: 0; }
+}
+
+.resume{
+    height: 100vh;
+    
 }
 
