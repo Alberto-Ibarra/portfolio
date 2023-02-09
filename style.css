@@ -117,3 +117,31 @@
     transform: translate(-50%, -50%);
     font-size: small;
 } 
+
+.aboutMe{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutImg{
+    height: 60vh;
+    width: 35%;
+    margin: auto;
+}
+
+.content{
+    height: 80vh;
+    width: 55%;
+    margin: auto;
+}
+
+.topContent{
+    height: 30vh;
+}
+.bottomContent{
+    height: 20vh;
+}
+
