@@ -84,10 +84,9 @@
 }
 
 
-.container{
+.container1{
     height: 100vh;
     width: 100%;
-    /* background-color: aqua; */
     margin-bottom: 10px;
 }
 
@@ -118,54 +117,26 @@
     font-size: small;
 } 
 
-.aboutMe{
-    height: 35vh;
-    width: 100%;
-    /* background-color: aqua; */
+
+.skills{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    justify-content: space-around;
 }
 
-.aboutImg{
-    margin-top: 10px;
-    height: 30vh;
-    width: 35%;
-    margin: auto;
-}
-.me{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-}
-
-.content{
-    height: 30vh;
-    width: 55%;
-    margin: auto;
-}
-
-.topContent{
-    padding: 10px;
-    height: 18vh;
-}
-.bottomContent{
+.icons{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 3px;
     height: 20vh;
 
-}
+} 
 
 .topIcons, .bottomIcons {
     display: flex;
     justify-content: space-around;
 }
 
-.bounce p {
-    font-size: xx-small;
-}
 
 .bounce {
     display: inline-block;
@@ -178,10 +149,15 @@
     50% { top: -0.2em; }
     70% { top: -0.4em; }
     100% { top: 0; }
-}
+} 
 
 .resume{
     height: 100vh;
-    
+    padding-top: 100px;
+}
+
+.resumeItem {
+    border-left: 2px solid black;
+    padding: 0 0 15px 15px;
 }
 

@@ -9,8 +9,10 @@
     <script src="https://kit.fontawesome.com/03104b444a.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
+    <!-- navbar -->
     <nav>
         <ul class="menu">
             <li><a class="menuItem">Home</a></li>
@@ -24,7 +26,9 @@
             <i class="closeIcon fa fa-times"></i>
         </button>
     </nav>
+
     <div class="container">
+        <!-- home -->
         <div class="img">
             <div>
                 <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80" class="banner">
@@ -34,46 +38,86 @@
             </div>
         </div> 
 
-        <div class="aboutMe">
-            <div class="aboutImg">
-                <img src="imgs/me.png" class="me" >
+        <!-- about me -->
+
+        <div class="aboutMe pt-5">
+            <div class="title pt-2">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ex numquam cupiditate provident iure, magni eveniet ad laborum magnam ullam vero minima ducimus expedita nobis earum sit illum deleniti.</p>
             </div>
-            <div class="content">
-                <div class="topContent">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed sint similique commodi molestiae, magnam voluptas, dolor, quia laudantium doloremque error earum quasi ad labore non repellat dolores rem nemo.
-                    magnam voluptas, dolor, quia laudantium doloremque error earum quasi ad labore non repellat dolores rem nemo.
+            <div class="row">
+                <div class="col-lg-6 pt-4 me ">
+                    <img src="imgs/me.png" alt="" srcset="">
                 </div>
-                <!-- <div class="bottomContent">
-                    <div class="topIcons">
-                        <i class="fa-solid fa-code fa-2x bounce"><p>Programming</p></i>
-                        <i class="fa-solid fa-dumbbell fa-2x bounce"><p>Body Building</p></i>
-                        <i class="fa-solid fa-plane fa-2x bounce"><p>Traveling</p></i>
+                <div class="col-lg-5 pt-4 d-flex flex-column justify-content-around">
+                    <h2>Full Stack Developer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla animi, quasi eveniet facilis perferendis </p>
+                    <h3>Skills</h3>
+                    <ul class="skills pt-4">
+                        <div>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </div>
+                        <div>
+                            <li>React</li>
+                            <li>MongoDB</li>
+                            <li>Python</li>
+                            <li>Git</li>
+                        </div>
+                    </ul>
+                    <div class="icons pt-4">
+                        <div class="topIcons">
+                            <i class="fa-solid fa-code fa-2x bounce"></i>
+                            <i class="fa-solid fa-dumbbell fa-2x bounce"></i>
+                            <i class="fa-solid fa-plane fa-2x bounce"></i>
+                        </div>
+    
+                        <div class="bottomIcons">
+                            <i class="fa-solid fa-baseball fa-2x bounce"></i>
+                            <i class="fa-solid fa-face-smile fa-2x bounce"></i>
+                            <i class="fa-solid fa-heart fa-2x bounce"></i>
+                        </div>
                     </div>
-                    <div class="bottomIcons">
-                        <i class="fa-solid fa-baseball fa-2x bounce"><p>Baseball</p></i>
-                        <i class="fa-solid fa-face-smile fa-2x bounce"><p>Smiles</p></i>
-                        <i class="fa-solid fa-heart fa-2x bounce"><p>Overall Health</p></i>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <div class="icons">
-            <div class="bottomContent">
-                <div class="topIcons">
-                    <i class="fa-solid fa-code fa-2x bounce"><p>Programming</p></i>
-                    <i class="fa-solid fa-dumbbell fa-2x bounce"><p>Body Building</p></i>
-                    <i class="fa-solid fa-plane fa-2x bounce"><p>Traveling</p></i>
-                </div>
-                <div class="bottomIcons">
-                    <i class="fa-solid fa-baseball fa-2x bounce"><p>Baseball</p></i>
-                    <i class="fa-solid fa-face-smile fa-2x bounce"><p>Smiles</p></i>
-                    <i class="fa-solid fa-heart fa-2x bounce"><p>Overall Health</p></i>
                 </div>
             </div>
         </div>
 
-        <div class="resume">
-            
+
+
+
+        <div class="resume container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="pt-2">Education</h3>
+                    <div class="resumeItem pt-2">
+                        <h5 class="pt-2">Test</h5>
+                        <p>2020 -2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores, vero distinctio voluptatum suscipit cum mollitia explicabo vel ab eos aliquid labore! Quidem neque asperiores nihil, blanditiis cumque quo nemo!</p>
+                    </div>
+                    <div class="resumeItem pt-2">
+                        <h5 class="pt-2">Test</h5>
+                        <p>2020 -2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores, vero distinctio voluptatum suscipit cum mollitia explicabo vel ab eos aliquid labore! Quidem neque asperiores nihil, blanditiis cumque quo nemo!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3>Professional Experience</h3>
+                    <div class="resumeItem pb-0">
+                        <h4>test</h4>
+                        <h5>2017-present</h5>
+                        <p>Los Angeles, Ca</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe odio nihil dolor, nobis vel recusandae accusamus eum</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe odio nihil dolor, nobis vel recusandae accusamus eum</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe odio nihil dolor, nobis vel recusandae accusamus eum</li>
+                        </ul>
+                    </div>
+                    <div class="resumeItem pb-0"></div>
+                </div>
+            </div>
         </div>
     </div>
 
