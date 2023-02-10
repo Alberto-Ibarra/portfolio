@@ -112,6 +112,7 @@
     height: 350px;
     position: relative;
     overflow: hidden;
+    margin: auto;
 }
 
 .slide {
@@ -162,7 +163,7 @@
 
 
 .developer{
-    background-color: whitesmoke;
+    background-color: whitesmoke;margin-left: auto;
 }
 
 .skills{
@@ -201,7 +202,16 @@
 .resume{
     height: 150vh;
     padding-top: 20px;
+    max-width: 100%;
 }
+/* 
+.resumeRight{
+    margin-left: auto;
+} */
+/* .resumeleft{
+    margin-right: auto;
+    padding-right: 10px;
+} */
 
 @media screen and (min-width: 400px){
     .resume{
@@ -242,5 +252,16 @@
 
 .contact h2{
     color: gold;
+}
+
+.button {
+    background-color: dodgerblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 

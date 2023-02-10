@@ -42,7 +42,6 @@ $(()=>{
 //carousel vanilla js
 const slides = document.querySelectorAll(".slide");
 slides.forEach((slide, indx) => {
-    console.log("test");
     slide.style.transform = `translateX(${indx * 100}%)`;
 });
 
@@ -68,7 +67,7 @@ const prevSlide = document.querySelector(".btn-prev");
 
 prevSlide.addEventListener("click", function () {
     if (currentSlide === 0) {
-        urrentSlide = maxSlide;
+        currentSlide = maxSlide;
     } else {
         currentSlide--
     }

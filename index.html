@@ -88,7 +88,7 @@
 
 
         <!-- slides -->
-        <div class="slider pt-5 d-flex justify-content-center">
+        <div class="slider pt-5 ">
     
             <!-- slide 1 -->
         <div class="slide">
@@ -114,7 +114,7 @@
         <!-- resume -->
         <div class="resume container" id="resume">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5 resumeLeft">
                     <h3 class="res">Education</h3>
                     <div class="resumeItem pt-2">
                         <h5 class="pt-1">Test</h5>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-5 resumeRight">
                     <h3 class="pt-5 res">Professional Experience</h3>
                     <div class="resumeItem pt-2">
                         <h4 class="pt-1">test</h4>
@@ -186,7 +186,8 @@
         <!-- Contact me -->
         <div class="contact container" id="contact">
             <h2>Lets Collaborate</h2>
-            <form class="row g-2" action="">
+            <form class="row g-2" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="3e52dc27-9c28-4a81-b5b1-a70975155a05">
                 <div class="col-lg-6">
                     <label for="firstName" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="firstName" required>
@@ -201,10 +202,10 @@
                 </div>
                 <div class="col-lg-12">
                     <label for="textarea" class="form-label">Description</label>
-                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                    <textarea name="" id="textarea" cols="30" rows="10" class="form-control"></textarea>
                 </div>
-                <div class="col-lg-12">
-                    <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Submit</button>
+                <div class="col-lg-4">
+                    <button class="button ">Collaborate</button>
                 </div>
             </form>
         </div>
