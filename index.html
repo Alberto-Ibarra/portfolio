@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
     <nav>
         <ul class="menu">
-            <li><a class="menuItem">Home</a></li>
-            <li><a class="menuItem">About Me</a></li>
-            <li><a class="menuItem">Resume</a></li>
-            <li><a class="menuItem">Projects</a></li>
-            <li><a class="menuItem">Collaborate</a></li>
+            <li><a class="menuItem" href="#home">Home</a></li>
+            <li><a class="menuItem" href="#about">About Me</a></li>
+            <li><a class="menuItem" href="#resume">Resume</a></li>
+            <li><a class="menuItem" href="#projects">Projects</a></li>
+            <li><a class="menuItem" href="#contact">Collaborate</a></li>
         </ul>
         <button class="hamburger">
             <i class="menuIcon fa fa-bars"></i>
@@ -32,7 +32,7 @@
 
     <div class="container">
         <!-- home -->
-        <div class="img">
+        <div class="img" id="home">
             <div>
                 <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80" class="banner">
 
@@ -43,7 +43,7 @@
 
         <!-- about me -->
 
-        <div class="aboutMe pt-3">
+        <div class="aboutMe pt-3" id="about">
             <div class="title pt-2">
                 <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ex numquam cupiditate provident iure, magni eveniet ad laborum magnam ullam vero minima ducimus expedita nobis earum sit illum deleniti.</p>
@@ -88,7 +88,7 @@
         </div>
 
         <!-- resume -->
-        <div class="resume container">
+        <div class="resume container" id="resume">
             <div class="row">
                 <div class="col-lg-6">
                     <h3 class="res">Education</h3>
@@ -132,7 +132,7 @@
         </div>
 
         <!-- projects -->
-        <div class="projects container pt-4">
+        <div class="projects container pt-4" id="projects">
             <h2>Projects</h2>
             <div class="row">
                 <div class="col-lg-6 d-flex justify-content-around">
@@ -160,7 +160,7 @@
         </div>
 
         <!-- Contact me -->
-        <div class="contact container">
+        <div class="contact container" id="contact">
             <h2>Lets Collaborate</h2>
             <form class="row g-2" action="">
                 <div class="col-lg-6">
