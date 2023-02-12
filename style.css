@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
 }
 
 .title h2{
-    color: gold;
+    color: hotpink;
+    font-size: 40px;
 }
 
 .res{
-    color: gold;
+    color: hotpink;
+    font-size: 40px;
 }
 
 .menu {
@@ -68,22 +70,17 @@
 }
 
 
-.container1{
-    height: 100vh;
-    width: 100%;
-    margin-bottom: 10px;
-
-}
-
 .img{
-    position: relative;
-    text-align: center;
-    color: white;
+    height: 110vh;
+    /* background-image: url("imgs/wallpaper.jpg");
+    background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: navy;
 }
 
-.banner{
-    max-width: 100%;
-    max-height: 100%;
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .name{
@@ -91,15 +88,21 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: larger;
-}
+    font-size: 90px;
+    max-width: 100%;
+    color: hotpink;
+    animation: fadeIn 5s;
+} 
+
 
 .imgText{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: small;
+    transform: translate(-50%, 110%);
+    font-size: 25px;
+    color: hotpink;
+    animation: fadeIn 5s;
 } 
 
 
@@ -166,9 +169,23 @@
     background-color: whitesmoke;margin-left: auto;
 }
 
+.developer h2, .developer h3{
+    color: hotpink;
+}
+
+.developer p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skills{
     display: flex;
     justify-content: space-around;
+}
+
+.skills li{
+    font-size: x-large;
+    list-style-type: circle;
 }
 
 .icons{
@@ -200,7 +217,7 @@
 } 
 
 .resume{
-    height: 150vh;
+    height: 170vh;
     padding-top: 20px;
     max-width: 100%;
 }
@@ -208,31 +225,37 @@
 .resumeRight{
     margin-left: auto;
 }
-/* .resumeleft{
-    margin-right: auto;
-    padding-right: 10px;
-} */
 
-@media screen and (min-width: 400px){
-    .resume{
-        height: 90vh;
-        padding-top: 20px;
-    }
-}
-
-.resumeItem {
-    border-left: 2px solid navy;
-    padding: 0 0 15px 15px;
-}
 
 .projects{
-    height: 80vh;
+    height: 140vh;
     padding-top: 20px;
     /* background-color: whitesmoke; */
 }
 
+@media screen and (min-width: 400px){
+    .resume{
+        height: 80vh;
+        padding-top: 20px;
+    }
+
+    .projects{
+        height: 90vh;
+        padding-top: 20px;
+        /* background-color: whitesmoke; */
+    }
+}
+
+
+.resumeItem {
+    border-left: 3px solid navy;
+    padding: 0 0 15px 15px;
+}
+
+
 .projects h2{
-    color: gold;
+    color: hotpink;
+    font-size: 40px;
 }
 
 .tech{
@@ -251,11 +274,12 @@
 }
 
 .contact h2{
-    color: gold;
+    color: hotpink;
+    font-size: 40px;
 }
 
 .button {
-    background-color: dodgerblue; /* Green */
+    background-color: navy; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -263,5 +287,10 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
