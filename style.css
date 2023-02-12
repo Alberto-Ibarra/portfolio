@@ -83,6 +83,7 @@
     100% { opacity: 1; }
 }
 
+
 .name{
     position: absolute;
     top: 40%;
@@ -121,7 +122,7 @@
 .slide {
     width: 100%;
     max-width: 800px;
-    height: 350px;
+    height: 500px;
     position: absolute;
     transition: all 0.5s;
 }
@@ -160,9 +161,9 @@
 }
 
 
-
-
-
+.title p{
+    font-size: 20px;
+}
 
 
 .developer{
@@ -174,8 +175,7 @@
 }
 
 .developer p{
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 18px;
 }
 
 .skills{
@@ -235,7 +235,7 @@
 
 @media screen and (min-width: 400px){
     .resume{
-        height: 80vh;
+        height: 90vh;
         padding-top: 20px;
     }
 
